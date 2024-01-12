@@ -1,0 +1,133 @@
+@media only screen and (max-width: 767px) {
+
+
+
+
+    .register-block {
+        
+        background: #e11111 ;
+        padding: 60px 0;
+        width: 100vw ;
+        height: 100vh;
+        background-image: url('C:\Users\MSI\Desktop\Loonslab\Weather\src\assets\weather.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px 0;
+      }
+      
+      .register-sec {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        background: #fefefe;
+        padding: 30px;
+        border-radius: 5px;
+      }
+      
+      .register-sec h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #007bff;
+      }
+      
+      .register-form label {
+        color: #030000;
+        font-weight: bold;
+        
+      }
+      
+      .register-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+      }
+      
+      .text-danger {
+      
+        color: #dc3545;
+        
+      }
+      
+      .btn-login {
+        
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: 5px groove #0c196b !important;
+        border-radius: 50px !important;
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn-login:hover {
+        background-color: #478c3e;
+      }
+      .container{
+        margin-right: 40%;
+        margin-left: 25%;
+        width: 50vw;
+        
+        
+      
+        
+      }
+      
+      @keyframes shine {
+        0% {
+          color: #850606; 
+          text-shadow: 0 0 10px #b0a460; 
+        }
+        50% {
+          color: #059627; 
+          text-shadow: 0 0 20px #ada263; 
+        }
+        100% {
+          color: #3e20a1; 
+          text-shadow: 0 0 10px #807742; 
+        }
+      }
+      
+      
+      
+      .register-block >h1{
+        margin-left:28%;
+        padding-bottom: 20px;
+        color: #000b06;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        background-color: #ced4da;
+        margin-right: 35%;
+        padding-top: 10px;
+        text-align: center;
+        
+        border-radius: 10px;
+        animation: shine 2s infinite;
+        border: 3px solid #000;
+
+        width: 50vw;
+      
+      
+      } 
+
+
+      
+   
+      .container {
+        margin-left: 20px;
+        background-color: #a0d2da;
+        width: 80%;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 3px solid #000;
+        
+        
+      }
+      
+    
+    
+
+
+
+  }
